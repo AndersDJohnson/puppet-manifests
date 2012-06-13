@@ -33,8 +33,8 @@ node 'strib-vbox-debian6' inherits webdev {
 	}
 	
 	package {
-		mongodb:
-			ensure	=> present;
+		#mongodb:
+		#	ensure	=> present;
 
 		# lib32stdc++6 (for 64-bit OS)
 
